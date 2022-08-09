@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{107FB604-09AA-4B89-A67D-E009958CABEC}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{107FB604-09AA-4B89-A67D-E009958CABEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{C2C30859-1DCE-44F7-AE44-3FA286CCE897}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play" ID="{C5742862-3DFF-40A4-B120-52A8E198CFEE}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SonidoBajo" ID="{FEB4F7F5-C7E4-41E7-92EB-13A0B7B997A5}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Muted" ID="{40206F48-272F-429C-AB9C-357C649AD8D7}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ReturnMuted" ID="{3E0A2D63-C89C-4306-836F-4F09AE5D2059}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SonidoNormal" ID="{83C7E8DA-2A12-46AF-AFD6-A952FF2E0613}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ReturnPitch" ID="{DC8CC530-6414-498A-96A7-956F3F571784}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pitch" ID="{265835FD-7265-4D4A-B8A0-C20C9B9505BA}" WorkUnitID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

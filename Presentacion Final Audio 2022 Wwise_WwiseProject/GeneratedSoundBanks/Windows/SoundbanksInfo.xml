@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Agustín\Documents\GitHub\Presentacion Final Audio 2022 Wwise\Presentacion Final Audio 2022 Wwise_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Agustín\Documents\GitHub\Presentacion Final Audio 2022 Wwise\Presentacion Final Audio 2022 Wwise_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Agustín\Documents\GitHub\Presentacion Final Audio 2022 Wwise\Presentacion Final Audio 2022 Wwise_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Agustín\Documents\GitHub\Presentacion Final Audio 2022 Wwise\Presentacion Final Audio 2022 Wwise_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4227923536">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3791155954" Name="Muted" ObjectPath="\Events\Default Work Unit\Muted" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1908158473" Name="Pitch" ObjectPath="\Events\Default Work Unit\Pitch" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="763108185" Language="SFX">
+							<ShortName>Waka Waka.wav</ShortName>
+							<Path>SFX\Waka Waka_4B20A0E8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2550643480" Name="ReturnMuted" ObjectPath="\Events\Default Work Unit\ReturnMuted" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2346159075" Name="ReturnPitch" ObjectPath="\Events\Default Work Unit\ReturnPitch" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="349490285" Name="SonidoBajo" ObjectPath="\Events\Default Work Unit\SonidoBajo" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4159401014" Name="SonidoNormal" ObjectPath="\Events\Default Work Unit\SonidoNormal" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

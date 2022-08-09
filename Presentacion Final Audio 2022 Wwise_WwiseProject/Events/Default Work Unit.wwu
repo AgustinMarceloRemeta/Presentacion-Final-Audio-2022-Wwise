@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E1F16E3D-7AA7-4728-AE04-13EC93E3BFFC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play" ID="{C5742862-3DFF-40A4-B120-52A8E198CFEE}">
+					<ChildrenList>
+						<Action Name="" ID="{BED48205-91F9-4BA9-B9B2-C303075D5333}" ShortID="647683635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Muted" ID="{40206F48-272F-429C-AB9C-357C649AD8D7}">
+					<ChildrenList>
+						<Action Name="" ID="{4E574BB6-5A88-42A9-B76F-01F14530AB2F}" ShortID="1042202775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pitch" ID="{265835FD-7265-4D4A-B8A0-C20C9B9505BA}">
+					<ChildrenList>
+						<Action Name="" ID="{DB52E575-4E9B-468E-9651-8BE05EE17716}" ShortID="171923374">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Pitch" Type="int32" Value="450"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ReturnMuted" ID="{3E0A2D63-C89C-4306-836F-4F09AE5D2059}">
+					<ChildrenList>
+						<Action Name="" ID="{6505D1B5-785B-49B4-A556-D873F5DCEC4B}" ShortID="761997186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ReturnPitch" ID="{DC8CC530-6414-498A-96A7-956F3F571784}">
+					<ChildrenList>
+						<Action Name="" ID="{CC10741D-7959-44A7-80AD-A13B934C6AE3}" ShortID="377252994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SonidoBajo" ID="{FEB4F7F5-C7E4-41E7-92EB-13A0B7B997A5}">
+					<ChildrenList>
+						<Action Name="" ID="{6A24B7E9-ACAB-421E-AAB8-241754EC63AB}" ShortID="809511625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SonidoNormal" ID="{83C7E8DA-2A12-46AF-AFD6-A952FF2E0613}">
+					<ChildrenList>
+						<Action Name="" ID="{79C2B83D-C7B0-45B1-A244-5B79C3ECC7C7}" ShortID="196741204">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" WorkUnitID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	349490285	SonidoBajo			\Default Work Unit\SonidoBajo	
+	1256202815	Play			\Default Work Unit\Play	
+	1908158473	Pitch			\Default Work Unit\Pitch	
+	2346159075	ReturnPitch			\Default Work Unit\ReturnPitch	
+	2550643480	ReturnMuted			\Default Work Unit\ReturnMuted	
+	3791155954	Muted			\Default Work Unit\Muted	
+	4159401014	SonidoNormal			\Default Work Unit\SonidoNormal	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	763108185	Waka Waka	C:\Users\Agustín\Documents\GitHub\Presentacion Final Audio 2022 Wwise\Presentacion Final Audio 2022 Wwise_WwiseProject\.cache\Windows\SFX\Waka Waka_4B20A0E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Waka Waka		36867728
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0C2B1D59-5EAD-475E-9705-D78D05D0331B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Waka Waka" ID="{BAE4C828-39DB-4725-A8BE-0FD47E098E2B}" ShortID="953400140">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AF8DD1A9-1D77-47C8-8CEB-C0159C739601}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EBCBF68A-CC2E-4CE1-85A8-B2B423A9AE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Waka Waka" ID="{CF29C003-7DD3-47D6-A80A-F0D050530C78}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="8800"/>
+								<Property Name="LoopBegin" Type="Real64" Value="6.23333333333333"/>
+								<Property Name="LoopEnd" Type="Real64" Value="203.5"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Waka Waka.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="763108185"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Waka Waka" ID="{CF29C003-7DD3-47D6-A80A-F0D050530C78}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
